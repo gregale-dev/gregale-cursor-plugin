@@ -20,12 +20,12 @@ See https://gregale.dev/docs/cursor and https://gregale.dev/docs/agents.
 
 ## Source
 
-This directory is the source. `gregale-dev/gregale-cursor-plugin` is a
-published copy for the Cursor Marketplace; update it with
-`scripts/publish-cursor-plugin.sh` after a change here.
+The plugin is maintained in Gregale's main repository
+(`packaging/cursor-plugin`) and published to
+[gregale-dev/gregale-cursor-plugin](https://github.com/gregale-dev/gregale-cursor-plugin)
+with `scripts/publish-cursor-plugin.sh`; don't edit the published copy.
 
-The skills are the Claude Code plugin's skills
-(`packaging/claude-plugin/skills`), copied unchanged.
+The skills are the Claude Code plugin's skills, copied unchanged.
 `cmd/gregale/cursor_plugin_test.go` fails when the copies differ, when the
 MCP server is not the hosted endpoint, or when the manifest is incomplete.
-Bump `version` in `.cursor-plugin/plugin.json` when anything here changes.
+Bump `version` in `.cursor-plugin/plugin.json` when anything changes.
