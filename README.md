@@ -18,6 +18,13 @@ Without the plugin, add only the MCP server:
 
 See https://gregale.dev/docs/cursor and https://gregale.dev/docs/agents.
 
+## Guides
+
+On [gregale.dev](https://gregale.dev):
+
+- [Let Cursor deploy to production safely](https://gregale.dev/articles/cursor-deploy-production-safely)
+- [Human approval before an AI agent changes production](https://gregale.dev/articles/ai-agent-production-approval)
+
 ## Source
 
 The plugin is maintained in Gregale's main repository
